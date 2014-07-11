@@ -100,7 +100,6 @@
 		<div class="row">
 			<h3 class="twelvecol">
 			<?date_default_timezone_set('Asia/Yekaterinburg');?>
-			<?echo date("Y-m-d H:i:s");?>
 				<? if (strtotime('15:00 2014-07-12') >= strtotime('now')): ?>
 				Сюрприз появится не раньше начала церемонии
 				<? else: ?>
