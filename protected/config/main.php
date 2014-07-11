@@ -106,6 +106,19 @@ return array_replace_recursive(
             'errorHandler'=>array(
                 'errorAction'=>'site/error',
             ),
+            'instagram' => array(
+               'class' => 'appext.yiinstagram.InstagramEngine',
+               'config' => array (
+                             'client_id' => 'b3612e3f85ca4d95a019c5462c399bbf',
+                             'client_secret'   => 'e36e1bf4ce364f1fadf4baa10d075d68',
+                             'grant_type' => 'authorization_code',
+                             'redirect_uri' => 'http://dinuwedding.amobile-studio.ru/',
+                             'response_type' => 'code',
+                             )
+            ),
+            'curl' => array(
+                'class' => 'appext.yiicurl.Curl',
+            ),
         ),
         'params'=>array(),
     ),
