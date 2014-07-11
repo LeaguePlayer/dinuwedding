@@ -111,7 +111,7 @@
 				
 			<? else: ?>
 				<div class="vimeowrapper">
-					<iframe src="//player.vimeo.com/video/93371928" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<iframe src="//player.vimeo.com/video/100480847" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				</div>
 				<div class="starring">
 					<h4>В создании принимали участие:</h4>
