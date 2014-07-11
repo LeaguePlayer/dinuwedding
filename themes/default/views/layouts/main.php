@@ -30,7 +30,11 @@
 <script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>
 
 <script type="text/javascript">
-  VK.init({apiId: 4455959, onlyWidgets: true});
+	<? if ($_SERVER['HTTP_HOST'] == 'dinuwedding.amobile3.tmweb.ru'):?>
+  		VK.init({apiId: 4455514, onlyWidgets: true});
+  	<? else: ?>
+  		VK.init({apiId: 4455959, onlyWidgets: true});
+  		<? endif; ?>
 </script>
 </head>
 

@@ -29,9 +29,6 @@ class SiteController extends FrontController
 	 */
 	public function actionIndex()
 	{
-		if ($_SERVER['HTTP_HOST'] == 'dinuwedding.amobile3.tmweb.ru') {
-			//header('Location: http://wedding.husa.su/');
-		}
 		$this->title = Yii::app()->config->get('app.name');
 		$this->render('index');
 	}
