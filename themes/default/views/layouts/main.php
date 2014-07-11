@@ -99,6 +99,7 @@
 	<section id="surprise" class="sleeping p5 bluey surprise">
 		<div class="row">
 			<h3 class="twelvecol">
+			<?echo date("Y-m-d H:i:s");?>
 				<? if (strtotime('15:00 2014-07-12') >= strtotime('now')): ?>
 				Сюрприз появится не раньше начала церемонии
 				<? else: ?>
@@ -175,6 +176,30 @@
 	<script src="<?=$this->getAssetsUrl();?>/w_files/jquery-1.js"></script>
 	<script src="<?=$this->getAssetsUrl();?>/w_files/plugins.js"></script>
   <script src="<?=$this->getAssetsUrl();?>/w_files/app.js"></script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter25539836 = new Ya.Metrika({id:25539836,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
 
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/25539836" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 
 </body></html>
