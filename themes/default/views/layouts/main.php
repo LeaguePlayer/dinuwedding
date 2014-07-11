@@ -116,19 +116,19 @@
 				<div class="starring">
 					<h4>В создании принимали участие:</h4>
 					<ul>
-						<li><a href="http://vk.com/id150382077">Фёдор Дину</a></li>
-						<li><a href="http://vk.com/id3071446">Роман Завьялов</a></li>
-						<li><a href="http://vk.com/id7537832">Александра Зырянова</a></li>
-						<li><a href="http://vk.com/thekiwi">Светлана Зырянова</a></li>
-						<li><a href="http://vk.com/id6327008">Алиса Кравченко</a></li>
-						<li><a href="http://vk.com/lomyka">Екатерина Ломыкина</a></li>
-						<li><a href="http://vk.com/sonechka_lukashevich">Софья Лукашевич</a></li>
-						<li><a href="http://vk.com/valeriya_permyakova">Валерия Пермякова</a></li>
+						<li><a href="http://vk.com/id150382077" target="_blank">Фёдор Дину</a></li>
+						<li><a href="http://vk.com/id3071446" target="_blank">Роман Завьялов</a></li>
+						<li><a href="http://vk.com/id7537832" target="_blank">Александра Зырянова</a></li>
+						<li><a href="http://vk.com/thekiwi" target="_blank">Светлана Зырянова</a></li>
+						<li><a href="http://vk.com/id6327008" target="_blank">Алиса Кравченко</a></li>
+						<li><a href="http://vk.com/lomyka" target="_blank">Екатерина Ломыкина</a></li>
+						<li><a href="http://vk.com/sonechka_lukashevich" target="_blank">Софья Лукашевич</a></li>
+						<li><a href="http://vk.com/valeriya_permyakova" target="_blank">Валерия Пермякова</a></li>
 						<li><b>Пенчо Борисов Петков</b></li>
-						<li><a href="http://vk.com/sartx">Артур Сагитуллин</a></li>
-						<li><a href="http://vk.com/tsvetkovaviktoria">Виктория Цветкова</a></li>
-						<li><a href="http://vk.com/caravaneer">Михаил Шарапов</a></li>
-						<li><a href="http://vk.com/opalevo">Антон Щербаков</a></li>
+						<li><a href="http://vk.com/sartx" target="_blank">Артур Сагитуллин</a></li>
+						<li><a href="http://vk.com/tsvetkovaviktoria" target="_blank">Виктория Цветкова</a></li>
+						<li><a href="http://vk.com/caravaneer" target="_blank">Михаил Шарапов</a></li>
+						<li><a href="http://vk.com/opalevo" target="_blank">Антон Щербаков</a></li>
 					</ul>
 				</div>
 			<? endif; ?>
@@ -169,7 +169,7 @@
 		
 		<footer class="p5">
 			<div class="row">
-				<a href="http://www.vk.com/caravaneer" target="_blank" class="clear">Сделано на коленках Шарапова</a>
+				<a href="http://vk.com/caravaneer" target="_blank" class="clear">Сделано на коленках Шарапова</a>
 			</div>
 		</footer>
 
