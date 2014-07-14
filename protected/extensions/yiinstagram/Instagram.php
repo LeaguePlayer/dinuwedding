@@ -253,7 +253,19 @@ class Instagram {
         $endpointUrl = sprintf($this->_endpointUrls['user_recent'], $this->_endpointUrls['code']);
         $this->_initHttpClient($endpointUrl);
         $response = $this->_getHttpClientResponse();                
-        return $this->parseJson($response); 
+        $parsed = $this->parseJson($response);
+
+        $result = $parsed['data'];
+        $next_url = $parsed['pagination']['next_url'];
+        while (!empty($next_url)) {
+            $this->_initHttpClient($next_url);
+            $response = $this->_getHttpClientResponse();                
+            $parsed = $this->parseJson($response);
+            $result = array_merge($result, $parsed['data']);
+
+            $next_url = $parsed['pagination']['next_url'];
+        }
+        return $result;
     }
 
     /**
