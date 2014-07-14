@@ -39,7 +39,7 @@ class Instagram {
         'access_token' => 'https://api.instagram.com/oauth/access_token',
         'user' => 'https://api.instagram.com/v1/users/%d/?access_token=%s',
         'user_feed' => 'https://api.instagram.com/v1/users/self/feed?%s',
-        'user_recent' => 'https://api.instagram.com/v1/tags/dinu_wedding/media/recent?access_token=%s',
+        'user_recent' => 'https://api.instagram.com/v1/tags/dinu_wedding/media/recent?access_token=%s&count=200',
         'user_search' => 'https://api.instagram.com/v1/users/search?q=%s&access_token=%s',
         'user_follows' => 'https://api.instagram.com/v1/users/%d/follows?access_token=%s',
         'user_followed_by' => 'https://api.instagram.com/v1/users/%d/followed-by?access_token=%s',
