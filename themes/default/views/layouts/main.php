@@ -148,7 +148,7 @@
 			<div class="twelvecol">
 				<div class="insta">
 				<h4>Инстаграм: #dinu_wedding</h4>
-				<h4><a href="http://rghost.ru/56887900" target\"_blank">Скачать все фотки с инстика бесплатно без смс</a></h4>
+				<h4><a href="http://rghost.ru/56887900" target="_blank">Скачать все фотки с инстика бесплатно без смс</a></h4>
 	              <?php if($this->beginCache('insta', array('duration'=>1000))) { ?>
 	              <? 
 	                $instagram = Yii::app()->instagram->getInstagramApp();
